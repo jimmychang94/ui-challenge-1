@@ -1,0 +1,89 @@
+.a {
+  background-color: red;
+}
+
+.b {
+  background-color: orange;
+}
+
+.c {
+  background-color: yellow;
+}
+
+.d {
+  background-color: green;
+}
+
+.e {
+  background-color: blue;
+}
+
+.f {
+  background-color: violet;
+}
+
+.g {
+  background-color: purple;
+}
+
+.h {
+  background-color: lightskyblue;
+}
+
+.i {
+  background-color: orangered;
+}
+
+#a {
+  padding: 1% 0px;
+}
+
+#b {
+  padding: 9% 0px;
+}
+
+#c, #d {
+  padding: 6% 0px;
+}
+
+#e, #g {
+  padding: 40% 0px;
+}
+
+#f, #h {
+  padding: 20% 0px;
+}
+
+#i {
+  padding: 2% 0px;
+}
+
+@media only screen and (min-width: 800px) {
+  .b {
+    border: 1px solid #000;
+  }
+
+  .c, .d, .e, .f, .g, .h, .i {
+    border-left: 0px;
+  }
+
+  #a {
+    padding: 2% 0px;
+  }
+
+  #b {
+    padding: 145% 0px;
+  }
+
+  #c, #d {
+    padding: 20% 0px;
+  }
+
+  #e, #f, #g, #h{
+    padding: 55% 0px;
+  }
+
+  #i {
+    padding: 6% 0px;
+  }
+}
