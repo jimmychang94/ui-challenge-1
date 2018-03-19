@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  border: 1px solid #000;
+  border-bottom: 0px;
+}
+
+aside {
+  border: 1px solid #000;
+  border-bottom: 0px;
+}
+
+article {
+  border: 1px solid #000;
+  border-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  border: 1px solid #000;
+  border-bottom: 0px;
+}
+
+footer {
+  border: 1px solid #000;
+}

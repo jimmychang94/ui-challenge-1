@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  min-width: 480px;
+  height: 100%;
+}
+
+header {
+  height: 15.625vw;
+}
+
+aside {
+  height: 31.25vw;
+}
+
+article {
+  height: 26.04vw;
+}
+
+
+.e, .g {
+  width: 50%;
+  float: left;
+}
+
+li {
+  height: 52.08vw;
+}
+
+footer {
+  clear: both;
+  height: 16.66vw;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    max-width: 960px;
+    margin: 0px auto;
+  }
+
+  header {
+    height: 10.42vw;
+  }
+  
+  aside {
+    float: left;
+    width: 20.83%;
+    height: 62.50vw;
+  }
+
+  .c, .d {
+    display: inline-block;
+    width: 39.58%;
+    height: 20.83vw;
+  }
+  
+  .c {
+    float: left;
+  }
+  
+  .e, .f, .g {
+    width: 19.79%;
+    float: left;
+  }
+  
+  li {
+    display: inline-block;
+    width: 19.79%;
+    height: 26.04vw;
+  }
+  
+  footer {
+    clear: none;
+    float: left;
+    width: 79.17%;
+    height: 15.625vw;
+  }
+}
